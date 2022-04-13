@@ -6,10 +6,10 @@ function randomValueFromArray(array) {
   return array[randomNo];
 }
 
-setInterval(() => {
-  const randomChoice = randomValueFromArray(images);
-  imgElem.src = `images/${randomChoice}.jpg`;
-}, 2000);
+// setInterval(() => {
+//   const randomChoice = randomValueFromArray(images);
+//   imgElem.src = `images/${randomChoice}.jpg`;
+// }, 2000);
 
 // Register service worker to control making site work offline
 
